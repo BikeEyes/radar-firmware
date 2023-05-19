@@ -39,7 +39,9 @@ void setup()
 }
 
 void loop()
-{
+{ // Example code for reading data can be found on a DFROBOT wiki
+        // https://wiki.dfrobot.com/24GHz_Microwave_Radar_Sensor_SKU:%20SEN0306
+
         // Send data only when received data
         if (Serial2.read() == 0xff)
         {
